@@ -1,6 +1,6 @@
 "use strict";
 
-// some scripts
+// some script
 window.onload = renderMyChart;
 
 function renderMyChart() {
