@@ -1,6 +1,7 @@
 "use strict";
 
 // some scripts
+//avoid the error when define functions after using
 window.onload = renderMyChart;
 
 function renderMyChart() {
@@ -21,7 +22,7 @@ function renderMyChart() {
         d.Pop = +d.Pop;
         return d;
     }, function (error, data) {
-        if (error) throw error;
+        
 
         x.domain(data.map(function (d) { return d.States; }));
         y.domain([0, d3.max(data, function (d) { return d.Pop; })]);
