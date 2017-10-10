@@ -1,7 +1,7 @@
 "use strict";
 
 // some scripts
-//avoid the error when define functions after using
+
 window.onload = renderMyChart;
 
 function renderMyChart() {
