@@ -1,6 +1,6 @@
 "use strict";
 
-// some scripts
+
 
 window.onload = renderMyChart;
 
